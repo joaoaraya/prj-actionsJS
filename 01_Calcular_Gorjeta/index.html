@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular gorjeta</title>
+</head>
+<body>
+    <header>
+        <img src="" alt="">
+    </header>
+    <main>
+        <div class="page-forms">
+            <div>
+                <h1>Quanto cobrar de <b>gorjeta?</b></h1>
+                <p>Valor da conta</p>
+                <input type="text" name="" id="valorCheio" placeholder="R$ 0.00">
+                <p>Porcentagem</p>
+                <input type="text" name="" id="porcentagem" placeholder="0%">
+                <p>Pessoas na mesa</p>
+                <input type="number" name="" id="pessoasNaMesa" placeholder="0">
+            </div>
+            <div>
+                <button onclick="calcular()">Calcular gorjeta</button>
+            </div>
+        </div>
+        
+        <div class="page-results">
+            <div>
+                <div>
+                    <span>R$</span>
+                    <span>0</span>
+                    <span>,00</span>
+                </div>
+                <p><b>Por pessoa</b></p>
+            </div>
+            <hr>
+            <div>
+                <p><b>Valor final da conta</b></p>
+                <p class="result">R$ <span>0,00</span></p>
+            </div>
+            <div>
+                <button>Nova gorjeta</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./actions.js"></script>
+</body>
+</html>
